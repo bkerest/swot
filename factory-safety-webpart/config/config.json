@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "factory-safety-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/factorySafety/FactorySafetyWebPart.js",
+          "manifest": "./src/webparts/factorySafety/FactorySafetyWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FactorySafetyWebPartStrings": "lib/webparts/factorySafety/loc/{locale}.js"
+  }
+}

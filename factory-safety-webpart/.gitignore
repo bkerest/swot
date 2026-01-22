@@ -1,0 +1,62 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output directories
+lib/
+dist/
+temp/
+release/
+solution/
+
+# SharePoint
+*.sppkg
+sharepoint/solution/*.sppkg
+
+# Build generated files
+*.manifest.json
+config/copy-assets.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug
+*.tgz
+
+# Misc
+*.orig
+.temp/
+coverage/
+.vs/
